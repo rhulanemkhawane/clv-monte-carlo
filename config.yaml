@@ -1,0 +1,25 @@
+simulation:
+  # Number of unique customers to model across all segments
+  n_customers: 10000
+
+  # Monte Carlo draws per customer — more = tighter confidence intervals, higher runtime
+  n_simulations: 100000
+
+  # Forecast window in months (5 years); drives how far CLV is projected forward
+  planning_horizon_months: 60
+
+  # Annual discount rate applied to future cash flows (12% = typical SaaS cost of capital)
+  discount_rate_annual: 0.12
+
+segmentation:
+  # Customer segments — each gets its own purchase frequency, AOV, and churn distributions
+  segments:
+    - high_value
+    - standard
+    - churn_risk
+
+  # Proportion of the customer base assigned to each segment (must sum to 1.0)
+  segment_weights:
+    - 0.2   # high_value:  20% — low volume, high revenue drivers
+    - 0.5   # standard:    50% — core customer base
+    - 0.3   # churn_risk:  30% — at-risk customers, candidates for retention campaigns

@@ -1,0 +1,29 @@
+# Numerical computing — array operations, random sampling, statistical distributions
+numpy
+
+# Data manipulation — DataFrames for customer records, segment aggregations, results tables
+pandas
+
+# Statistical modeling — BG/NBD parameter fitting, probability distributions (Beta, Gamma)
+scipy
+
+# Machine learning — clustering for customer segmentation, preprocessing pipelines
+scikit-learn
+
+# Static plotting — histograms, CLV distribution plots, saved figures in reports/figures/
+matplotlib
+
+# Interactive charts — drill-down CLV dashboards, segment comparisons, scenario analysis
+plotly
+
+# Web dashboard — serves the interactive CLV dashboard in dashboard/
+streamlit
+
+# Testing framework — unit tests for simulation logic and data pipeline in tests/
+pytest
+
+# Config loading — reads config.yaml parameters (n_simulations, discount_rate, etc.)
+pyyaml
+
+# Interactive notebooks — exploratory analysis and model development in notebooks/
+jupyter
