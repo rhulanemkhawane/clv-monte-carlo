@@ -1,0 +1,30 @@
+{
+  "gamma": {
+    "high_value": {
+      "alpha": 49.3941,
+      "beta": 10.1045
+    },
+    "standard": {
+      "alpha": 29.6405,
+      "beta": 5.0828
+    },
+    "churn_risk": {
+      "alpha": 14.8401,
+      "beta": 3.0402
+    }
+  },
+  "weibull": {
+    "high_value": {
+      "shape": 1.1792,
+      "scale": 40.6107
+    },
+    "standard": {
+      "shape": 1.0129,
+      "scale": 25.6166
+    },
+    "churn_risk": {
+      "shape": 0.8323,
+      "scale": 10.2407
+    }
+  }
+}
