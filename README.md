@@ -114,5 +114,3 @@ clv-monte-carlo/
 ## Author
 
 **Rhulane Mkhawane**
-
-[LinkedIn](https://www.linkedin.com/in/YOUR_HANDLE) · [Blog](https://YOUR_BLOG_URL)
